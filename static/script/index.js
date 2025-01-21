@@ -589,8 +589,7 @@
 				this.y = game.height-20-5;
 				context.fillText(text,this.x,this.y);
 			}
-		}).bind('click',function(){
-			window.open('https://danthedegen.com/');
+		})
 		});
 		//事件绑定
 		stage.bind('keydown',function(e){
